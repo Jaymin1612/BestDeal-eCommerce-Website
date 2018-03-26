@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ProductCatalog>
+
+<TVCatalog>
+    <tv id="Samsung60inch">
+        <name>Samsung 6200 series</name>
+        <price>647.99</price>
+        <image>samsung_6200.jpg</image>
+        <manufacturer>Samsung</manufacturer>
+        <condition>New</condition>
+        <discount>10.0</discount>
+    </tv>
+    <tv id="Samsung32inch">
+        <name>Samsung 4000 series</name>
+        <price>419.99</price>
+        <image>samsung_tv.jpg</image>
+        <manufacturer>Samsung</manufacturer>
+        <condition>New</condition>
+        <discount>10.0</discount>
+    </tv>
+
+    <tv id="sonyXBR">
+        <name>Sony 65 inch</name>
+        <price>1199.99</price>
+        <image>sony_bravia.jpg</image>
+        <manufacturer>Sony</manufacturer>
+        <condition>New</condition>
+        <discount>10.0</discount>
+    </tv>
+    <tv id="sonyKDL">
+        <name>Sony KDL 48 inch</name>
+        <price>449.99</price>
+        <image>sony_65.jpg</image>
+        <manufacturer>Sony</manufacturer>
+        <condition>New</condition>
+        <discount>10.0</discount>
+    </tv>
+    <tv id="Sceptre">
+        <name>Sceptre 50 inch</name>
+        <price>249.99</price>
+        <image>sceptre.jpg</image>
+        <manufacturer>Sceptre</manufacturer>
+        <condition>New</condition>
+        <discount>10.0</discount>
+    </tv>
+</TVCatalog>
+
+<TabletCatalog>
+    <tablet id="ipadPro">
+        <name>Apple Ipad Pro</name>
+        <price>189.99</price>
+        <image>ipadPro.jpg</image>
+        <manufacturer>Apple</manufacturer>
+        <condition>New</condition>
+        <discount>40.0</discount>
+    </tablet>
+    <tablet id="ipad3">
+        <name>Apple Ipad 3</name>
+        <price>189.99</price>
+        <image>ipad3.jpg</image>
+        <manufacturer>Apple</manufacturer>
+        <condition>Used</condition>
+        <discount>20.0</discount>
+    </tablet>
+    <tablet id="Surface">
+        <name>Surface</name>
+        <price>299.99</price>
+        <image>surface.jpg</image>
+        <manufacturer>Microsoft</manufacturer>
+        <condition>New</condition>
+        <discount>15.0</discount>
+    </tablet>
+    <tablet id="Surface4">
+        <name>Surface Pro 4</name>
+        <price>299.99</price>
+        <image>surfacePro4.jpg</image>
+        <manufacturer>Microsoft</manufacturer>
+        <condition>New</condition>
+        <discount>15.0</discount>
+    </tablet>
+    <tablet id="Samsung2">
+        <name>Samsung Tab 2</name>
+        <price>150.99</price>
+        <image>tab3.jpg</image>
+        <manufacturer>Samsung</manufacturer>
+        <condition>New</condition>
+        <discount>15.0</discount>
+    </tablet>
+
+</TabletCatalog>
+<LaptopCatalog>
+	<laptop id="Inspiron5655">
+			<name>Dell Inspiron 5655</name>
+			<price>499.99</price>
+			<image>dell.jpg</image>
+			<manufacturer>Dell</manufacturer>
+			<condition>New</condition>
+			<discount>5.0</discount>
+	</laptop>
+	<laptop id="InspironI5559">
+			<name>Dell Inspiron i5559</name>
+			<price>699.99</price>
+			<image>dell.jpg</image>
+			<manufacturer>Dell</manufacturer>
+			<condition>New</condition>
+			<discount>10.0</discount>
+	</laptop>
+	<laptop id="MacbookPro">
+			<name>Macbook Pro</name>
+			<price>599.99</price>
+			<image>macbookPro.jpg</image>
+			<manufacturer>Apple</manufacturer>
+			<condition>Refurbished</condition>
+			<discount>5.0</discount>
+	</laptop>
+	<laptop id="MacbookAir">
+			<name>Macbook Air</name>
+			<price>609.99</price>
+			<image>macbookAir.jpg</image>
+			<manufacturer>Apple</manufacturer>
+			<condition>New</condition>
+			<discount>5.0</discount>
+	</laptop>
+	<laptop id="HPPavilion">
+			<name>HP Pavilion</name>
+			<price>379.99</price>
+			<image>hp.jpg</image>
+			<manufacturer>HP</manufacturer>
+			<condition>New</condition>
+			<discount>3.0</discount>
+	</laptop>
+</LaptopCatalog>
+
+<PhoneCatalog>
+
+    <phone id="iphone6s">
+        <name>iPhone 6s</name>
+        <price>449.99</price>
+        <image>iphone6s.jpg</image>
+        <manufacturer>Apple</manufacturer>
+        <condition>Refurbished</condition>
+        <discount>10.0</discount>
+     </phone>
+
+    <phone id="iphone7">
+        <name>iPhone 7</name>
+        <price>649.99</price>
+        <image>iphone6s.jpg</image>
+        <manufacturer>Apple</manufacturer>
+        <condition>New</condition>
+        <discount>5.0</discount>
+     </phone>
+
+    <phone id="pixel">
+        <name>Google Pixel</name>
+        <price>649.99</price>
+        <image>Pixel.jpg</image>
+        <manufacturer>Google</manufacturer>
+        <condition>New</condition>
+        <discount>5.0</discount>
+     </phone>
+
+    <phone id="s7edge">
+        <name>Galaxy S7 Edge</name>
+        <price>789.99</price>
+        <image>s7Edge.jpg</image>
+        <manufacturer>Samsung</manufacturer>
+        <condition>New</condition>
+        <discount>15.0</discount>
+     </phone>
+
+    <phone id="note3">
+        <name>Galaxy Note 3</name>
+        <price>545.99</price>
+        <image>note3.jpg</image>
+        <manufacturer>Samsung</manufacturer>
+        <condition>Refurbished</condition>
+        <discount>20.0</discount>
+     </phone>
+
+</PhoneCatalog>
+
+</ProductCatalog>

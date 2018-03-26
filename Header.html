@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>BestDeal - Best price guarantee</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <!-- Bootstrap styles -->
+    <link href="assets/css/bootstrap.css" rel="stylesheet"/>
+    <!-- Customize styles -->
+    <link href="style.css" rel="stylesheet"/>
+    <!-- font awesome styles -->
+	<link href="assets/font-awesome/css/font-awesome.css" rel="stylesheet">
+	<script type="text/javascript" src="assets/js/javascript.js"></script>
+		<!--[if IE 7]>
+			<link href="css/font-awesome-ie7.min.css" rel="stylesheet">
+		<![endif]-->
+
+		<!--[if lt IE 9]>
+			<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+		<![endif]-->
+
+	<!-- Favicons -->
+    <link rel="shortcut icon" href="assets/ico/favicon.ico">
+  </head>
+<body onload=init()>
+
+<!--
+Lower Header Section 
+-->
+<div class="container">
+<div id="gototop"> </div>
+<header id="header">
+<div class="row">
+	<div class="span4">
+	<h1>
+	<a class="logo" href="Home"><span>BestDeal - Best price guarantee</span> 
+		<img src="assets/img/bestdeals.png" alt="bootstrap sexy shop" style="width: 224px; height: 51px;">
+	</a>
+	</h1>
+	</div>
+	<div class="span4">
+	<div class="">
+	
+	<i class=""></i>
+	</div>
+	</div>
+	<div class="span4 alignR">
+	<p><br> <strong>  </strong><br><br></p>
+	
+	<span ><strong>Your Cart</strong></span>
+	<span class="icon-shopping-cart" onclick="location.href='Cart'" ></span>
+	</div>
+</div>
+</header>
+
+<!--
+Navigation Bar Section 
+-->
+<div class="navbar">
+	  <div class="navbar-inner">
+		<div class="container">
+		  <a data-target=".nav-collapse" data-toggle="collapse" class="btn btn-navbar">
+			<span class="icon-bar"></span>
+			<span class="icon-bar"></span>
+			<span class="icon-bar"></span>
+		  </a>
+		  <div class="nav-collapse">
+			<ul class="nav">
+			  <li class="active"><a href="Home">Home	</a></li>
+			  <li class=""><a href=TVList>Televisions</a></li>
+			  <li class=""><a href=LaptopsList>Laptop</a></li>
+			  <li class=""><a href=TabletList>Tablet</a></li>
+			  <li class=""><a href=PhoneList>Phone</a></li>
+			  <li class=""><a href=Trending>Trending</a></li>
+			</ul>
+			<div class="span1"></div>
+				<!-- changed -->
+				<form onsubmit="return false;" class="pure-form" style="border-top: 1px solid #eee;border-bottom:1px solid #eee;background:#fafafa;margin:30px 0;padding:20px 10px;text-align:center">
+					<input id="hero-demo" autofocus type="text" name="q" placeholder="Programming languages ..." style="width:100%;max-width:600px;outline:0">
+				</form>
+			
+			
+			<ul class="nav pull-right">
+			<li class="dropdown">
+				<a class="dropdown-toggle" href="Login"><span class="icon-lock"></span> Login <b class="caret"></b></a>
+				<a class="dropdown-toggle" href="Rgistration"><span class="icon-lock"></span> Registration <b class="caret"></b></a>
+				<a data-toggle="dropdown" class="dropdown-toggle" href="#"><span class="icon-lock"></span> Login <b class="caret"></b></a>
+				<div class="dropdown-menu">
+				<form class="form-horizontal loginFrm" action="Login">
+				  <div class="control-group">
+					<input type="text" class="span2" name="username" id="inputEmail" placeholder="Username">
+				  </div>
+				  <div class="control-group">
+					<input type="password" class="span2" name="password" id="inputPassword" placeholder="Password">
+				  </div>
+				  <div class="control-group">
+				  	<h3>User Type </h3>
+				  	<select name='usertype' class='input'>
+				  		<option value='customer' selected>Customer</option>
+				  		<option value='retailer'>Store Manager</option>
+				  		<option value='manager'>Salesman</option>
+				  	</select>
+				  </div>
+				  <div class="control-group">
+					<label class="checkbox">
+					<input type="checkbox"> Remember me
+					</label>
+					<input type="submit" class="shopBtn btn-block" value="Login">
+				  </div>
+				  <div class="control-group">
+				  	<a href="Registration"> New? Sign up here! </a>
+				  </div>
+				</form>
+				</div>
+			</li>
+			</ul>
+		  </div>
+		</div>
+	  </div>
+	</div>
